@@ -9,10 +9,10 @@ def computepay(h,r):
     return p
 def main():
 	
-hrs = input("Enter Hours:")
-hr = float(hrs)
-rphrs = input("Enter rate per hour:")
-rphr = float(rphrs)
-p = computepay(hr,rphr)
-print("Pay",p)
+	hrs = input("Enter Hours:")
+	hr = float(hrs)
+	rphrs = input("Enter rate per hour:")
+	rphr = float(rphrs)
+	p = computepay(hr,rphr)
+	print("Pay",p)
 main()
