@@ -1,12 +1,12 @@
 
 # Variables, Expressions & Statements
-def earning():
+def Earning():
     hrs = float(input("enter Hours:"))
     rate=float(input("enter Rate :"))
     Earning =hrs*rate
     print("Pay:",Earning)
 def main():
-    earning()
+    Earning()
 main()
 
 
