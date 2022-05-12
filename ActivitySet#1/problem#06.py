@@ -1,5 +1,5 @@
 # Loops & Iterators
-#used try and except keywords
+
 def comparision():
     largest = None
     smallest = None
@@ -20,4 +20,5 @@ def comparision():
     print ("Minimum is",smallest)
 def main():
     comparision()    
-main()    
+main()
+#used try and except keywords
