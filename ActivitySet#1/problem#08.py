@@ -11,6 +11,5 @@ for line in fhand:
         continue
     average += float(line[20:])
     count = count + 1
-    #print(line)
     
 print("Average spam confidence:", (average/count))
