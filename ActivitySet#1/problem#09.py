@@ -1,5 +1,5 @@
 # Lists
-#fname = "dataset/romeo.txt"
+#fname = "dataset/romeo.txt"(other method to input)
 fname = input("Enter the file name")
 fhand = open(fname)
 mylist = list()
