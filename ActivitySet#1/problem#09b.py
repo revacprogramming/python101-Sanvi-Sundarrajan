@@ -3,7 +3,7 @@
 fhand = open("dataset/mbox-short.txt")
 count=0
 for line in fhand:
-    line = line.rstrip()
+    line = line.rstrip()#works even without this , this is cheap
     if line.startswith('From '):
      	words = line.split()                     
         print (words[1])                        
