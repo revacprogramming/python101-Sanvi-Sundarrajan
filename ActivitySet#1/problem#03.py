@@ -4,7 +4,7 @@ def Earning(hrs,rate):
   wage = hrs*rate
   return wage
 def output(wage):
-	print("Earing",wage)
+	print("Earning",wage)
 def main():
 	hrs=float(input("Enter hours:"))
 	rate=float(input("Enter rate:"))

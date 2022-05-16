@@ -1,13 +1,16 @@
 # Conditional Execution
-def computation():
-	hours=input("Enter Hours:")
-	h=float(hours)
-	rate= input("Enter the Rate:")
-	r=float(rate)
+def computation(h,r):
 	if h <= 40:
-	 	print(h*r)
+	 	return h*r
 	elif h > 40:
-		print(40*r+(h-40)*1.5*r)
+		return 40*r+(h-40)*1.5*r
+def output(wage):
+	print ("Earing",wage)
 def main():
-	computation()
+	hours=float(input("Enter Hours:"))
+	rate= float(input("Enter the Rate:"))
+	wage=computation(hours,rate)
+	output(wage)
+	
 main()	
+
