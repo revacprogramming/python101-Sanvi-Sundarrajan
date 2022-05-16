@@ -1,21 +1,20 @@
 # Conditional Execution(II)
-def scores():
-	score = input("Enter Score: ")
-	s =  float(score)
-	x = "NULL"
+def input():
+	score = float(input("Enter Score: "))
+	return score
+def scores(s):
 	if s >= 0.9:
-		x = 'A'
+		return 'A'
 	elif s >=0.8:
-		x='B'
+		return 'B'
 	elif s >=0.7:
-		x='C'
+		return 'C'
 	elif s >= 0.6:
-		x='D'
+		return 'D'
 	elif s < 0.6:
-		x ='F'
+		return 'F'
 	else:
-		x ="Out of Range"
-	print (x) 
+		return "Out of Range"
 def main():
 	scores()
 main()
