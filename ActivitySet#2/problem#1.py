@@ -1,12 +1,9 @@
 def add(a, b):
-  a=int(input("Enter first number"))
-	b=int(input("Enter first number"))
-	return a,b
-
-
+    c = float(a)+float(b) 
+    return c
 def main():
-    a = input  # ...
-    b = input  # ...
-
+    a = input("Enter the first number")
+    b = input("Enter the second number")
     c = add(a, b)
-    print  # ...
+    print ("The Sum =",c)
+main()    
