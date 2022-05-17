@@ -1,7 +1,7 @@
-
-
 def add(a, b):
-    return  # ...
+  a=int(input("Enter first number"))
+	b=int(input("Enter first number"))
+	return a,b
 
 
 def main():
