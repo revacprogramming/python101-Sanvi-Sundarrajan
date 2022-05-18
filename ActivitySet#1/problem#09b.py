@@ -1,5 +1,4 @@
 #Lists
-def input:
 fhand = open("dataset/mbox-short.txt")
 count=0
 for line in fhand:
