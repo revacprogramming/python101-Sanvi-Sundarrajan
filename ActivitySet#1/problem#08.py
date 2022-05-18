@@ -1,7 +1,6 @@
 # Files
 # Use the file name mbox-short.txt as the file name
-def filehandle():
-	fname = input("Enter file name: ")
+def filehandle(fname):
 	fhand = open(fname)
 	count = 0
 	average = 0
@@ -16,6 +15,7 @@ def filehandle():
 def output(final):		
 	print("Average spam confidence:", final)
 def main():
-	final=filehandle()
+	fname = input("Enter file name: ")
+	final=filehandle(fname)
 	output(final)
 main()	

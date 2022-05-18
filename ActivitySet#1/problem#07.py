@@ -6,8 +6,11 @@ def convert(text):
     Pos = text.find(':')
     last = text[Pos+1:]
     end = float(last)
+	return end
+def output(end):	
     print(end)
 def main():
     text=myinput()
-    convert(text)
+    end=convert(text)
+		output(end)
 main()
