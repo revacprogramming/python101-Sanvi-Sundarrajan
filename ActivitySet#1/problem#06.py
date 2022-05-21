@@ -18,7 +18,11 @@ def comparision():
             continue
     print ("Maximum is",largest)
     print ("Minimum is",smallest)
+
+
 def main():
     comparision()    
+
+
 main()
 #used try and except keywords

@@ -2,6 +2,8 @@
 def input():
 	score = float(input("Enter Score: "))
 	return score
+
+	
 def scores(s):
 	if s >= 0.9:
 		return 'A'
@@ -15,6 +17,10 @@ def scores(s):
 		return 'F'
 	else:
 		return "Out of Range"
+
+		
 def main():
 	scores()
+
+	
 main()

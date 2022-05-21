@@ -12,10 +12,16 @@ def filehandle(fname):
 	    count = count + 1
 	final=average/count
 	return final
+
+
 def output(final):		
 	print("Average spam confidence:", final)
+
+
 def main():
 	fname = input("Enter file name: ")
 	final=filehandle(fname)
 	output(final)
+
+
 main()	
