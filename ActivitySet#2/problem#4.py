@@ -2,7 +2,8 @@
 
 def get_cs():
     
-	print(input("Enter a string"))
+	cs=input("Enter a string")
+	return cs
 
 def cs_to_lot(cs):
     """convert connected string to list of strings"""
