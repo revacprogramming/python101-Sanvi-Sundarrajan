@@ -5,5 +5,5 @@ def main():
     a = input("Enter the first number")
     b = input("Enter the second number")
     c = add(a, b)
-    print ("The Sum =",c)
+    print ("The Sum of"a,b,"is",c)
 main()    
