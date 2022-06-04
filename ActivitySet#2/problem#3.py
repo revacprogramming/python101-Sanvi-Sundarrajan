@@ -6,9 +6,11 @@ def get_cs():
 
 
 def cs_to_lot(cs):
-  lot=list()
-  lot=cs.split()
-  return lot
+  lst=[]
+  x=cs.split(';')
+  for i in x:
+    y=i.split('=')
+    lt.append((y[0],y[1]))
 
 
 def main():
