@@ -10,7 +10,7 @@ def cs_to_lot(cs):
   for i in splt1:
     splt2=i.split('=')
     lst1.append((splt2[0],splt2[1]))#appending tuple to list 
-	return lst
+		return lst1
 
 
 def lot_to_cs(lot):
