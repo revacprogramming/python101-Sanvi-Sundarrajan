@@ -7,10 +7,10 @@ def get_cs():
 
 def cs_to_lot(cs):
   lst=[]
-  x=cs.split(';')
-  for i in x:
-    y=i.split('=')
-    lt.append((y[0],y[1]))
+  splt1=cs.split(';')
+  for i in splt1:
+    splt2=i.split('=')
+    lt.append((splt2[0],splt2[1]))
 
 
 def main():
