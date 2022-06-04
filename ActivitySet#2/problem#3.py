@@ -6,18 +6,15 @@ def get_cs():
 
 
 def cs_to_lot(cs):
-  lst1=[]
-  splt1=cs.split(';')
-  for i in splt1:
-    splt2=i.split('=')
-    lst1.append((splt2[0],splt2[1]))#appending tuple to list 
-	return lst
+  lot=list()
+  lot=cs.split()
+  return lot
+
 
 def main():
-  lst2=[]
-    for a in lot:
-      lst2.append("=".join(a))
-    return(";".join(lst2))
+  cs = get_cs()
+  lot = cs_to_lot(cs)
+  print(lot)
 
 
 if __name__ == '__main__':
