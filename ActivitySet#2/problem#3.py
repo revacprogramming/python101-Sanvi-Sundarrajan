@@ -6,10 +6,12 @@ def get_cs():
 
 
 def cs_to_lot(cs):
-  lot=list()
-  lot=cs.split()
-  return lot
-
+  lot=[]
+  splt1=cs.split(';')
+  for i in splt1:
+    splt2=i.split('=')
+    lot.append((splt2[0],splt2[1]))#appending tuple to list 
+		return lot
 
 def main():
   cs = get_cs()
