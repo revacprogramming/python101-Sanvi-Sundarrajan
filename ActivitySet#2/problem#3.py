@@ -13,6 +13,7 @@ def cs_to_lot(cs):
     lot.append((splt2[0],splt2[1]))#appending tuple to list 
 		return lot
 
+
 def main():
   cs = get_cs()
   lot = cs_to_lot(cs)
