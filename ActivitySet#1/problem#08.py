@@ -1,6 +1,6 @@
 # Files
 # Use the file name mbox-short.txt as the file name
-def filehandle(fname):
+def averagespam(fname):
 	fhand = open(fname)
 	count = 0
 	average = 0
@@ -25,3 +25,4 @@ def main():
 
 
 main()	
+# use with to open files
