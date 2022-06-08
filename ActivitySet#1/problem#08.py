@@ -8,20 +8,20 @@ def averagespam(fname):
 	    line=line.rstrip()
 	    if not line.startswith("X-DSPAM-Confidence:") : 
 	        continue
-	    average += float(line[20:])
+	    total += float(line[20:])
 	    count = count + 1
-	final=average/count
-	return final
+	average=total/count
+	return average
 
 
-def output(final):		
-	print("Average spam confidence:", final)
+def output(average):		
+	print("Average spam confidence:", average)
 
 
 def main():
 	fname = input("Enter file name: ")
-	final=filehandle(fname)
-	output(final)
+	average=filehandle(fname)
+	output(average)
 
 
 main()	
