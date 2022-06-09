@@ -16,12 +16,15 @@ def comparision():
         except:
             print ("Invalid input")
             continue
-    print ("Maximum is",largest)
-    print ("Minimum is",smallest)
+    maximum=largest
+		minimum=smallest
+return maximum,minimum
+def output(max,min):
+	print("Maximum and minimum are"max,min)
 
 
 def main():
-    comparision()    
+    max,min=comparision()    
 
 
 main()
