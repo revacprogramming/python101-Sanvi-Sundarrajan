@@ -9,7 +9,7 @@ def cs_to_lot(cs):
   splt1=cs.split(';')
   for i in splt1:
     splt2=i.split('=')
-    lst1.append((splt2[0],splt2[1]))#appending tuple to list 
+    lst1.append((splt2[0],splt2[1])) #appending tuple to list 
 		return lst1
 
 
