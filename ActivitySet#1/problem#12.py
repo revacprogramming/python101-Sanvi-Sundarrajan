@@ -20,4 +20,14 @@ $        Matches the end of the line
 )        Indicates where string extraction is to end
 
 '''
+# You will extract all the numbers in the file and compute the sum of the numbers.
 import re
+count = 0
+#with open('dataset/regex.txt','r') as f: 
+f = open('dataset/regex.txt')
+f=f.read()
+numbers = re.findall('[0-9]+',f)
+for n in numbers:
+	number = float(n) 
+	count = count + number
+print(count)
