@@ -1,5 +1,7 @@
 # Regular Expressions
 # https://www.py4e.com/lessons/regex
+# Regular Expressions
+# https://www.py4e.com/lessons/regex
 '''Python Regular Expression Quick Guide
 
 ^        Matches the beginning of a line
@@ -23,11 +25,14 @@ $        Matches the end of the line
 # You will extract all the numbers in the file and compute the sum of the numbers.
 import re
 count = 0
+sum_ = 0
 #with open('dataset/regex.txt','r') as f: 
 f = open('dataset/regex.txt')
 f=f.read()
 numbers = re.findall('[0-9]+',f)
 for n in numbers:
 	number = float(n) 
-	count = count + number
+	count = count + 1
+	sum_ += number
 print(count)
+print(sum_)# sum is not correct 
