@@ -20,7 +20,6 @@ $        Matches the end of the line
 [a-z0-9] The set of characters can include a range
 (        Indicates where string extraction is to start
 )        Indicates where string extraction is to end
-
 '''
 # You will extract all the numbers in the file and compute the sum of the numbers.
 import re
