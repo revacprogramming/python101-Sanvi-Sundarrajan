@@ -5,13 +5,14 @@ counts={}
 
 for line in filehandle:
 	if line.startswith("From "):
-		time=line.split()[5].split(":")
-		counts [time] = counts.get(timefin, 0) + 1
+		 time = line.split()[5].split(":")
+        counts [time[0]] = counts.get(time[0], 0) + 1
+    
 
 
 lst = list()
 
-for key, value in counts.items():
+for key, value in counts.items():#converts dict to tuples
     lst.append( (key,value) )
 lst.sort()
 
