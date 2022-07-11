@@ -13,7 +13,7 @@ uh = urllib.request.urlopen(url)
 data = uh.read()
 print('Retrieved', len(data), 'characters')
 
-tree = ET.fromstring(data)
+tree = ET.fromstring(data)# data is converted to string
 lst = tree.findall ('comments/comment')
 
 for item in lst:
