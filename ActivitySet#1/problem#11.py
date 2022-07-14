@@ -8,7 +8,6 @@ for line in filehandle:
 		time = line.split()[5].split(":")
 		counts[time[0]] = counts.get(time[0],0) + 1
 
-
 lst = list()
 
 for key, value in counts.items():#converts dict to tuples

@@ -1,9 +1,7 @@
 # Lists
 #fname = "dataset/romeo.txt"(other method to input)
-def myinput():
-	fname = input("Enter the file name")
-	return fname
-def listsort():	
+fname = input("Enter the file name")
+
 fhand = open(fname)
 mylist = list()
 for line in fhand:
