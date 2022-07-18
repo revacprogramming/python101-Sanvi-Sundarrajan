@@ -6,20 +6,22 @@ def get_cs():
 
 
 def cs_to_dict(cs):
-	splt1 = cs.split(';')                   
+	d={}
+	splt1 = cs.split(';') 
 	for i in splt1:
 		splt2=i.split('=')
-	#for i in splt2:
-		#for i in range(0, len(splt2)):
-			#d={splt2[i] : splt2[i + 1]}
-	d_= iter(splt2)
-	d = dict(zip(d,d)) 
-	return d 
+		d[splt2[0]]=splt2[1]
+	return d 	
+	'''d_= iter(splt2)
+	d = dict(zip(d,d)) # zip method 
+	return d'''    
 
 
-def dict_to_cs(d):
-    """convert a dictionary to connect string"""
-
+def dict_to_cs(d): 
+	cs=str()
+	for i in d:
+		cs = cs+(i+"="+d[i]+";")
+	return cs
 
 def main():
   cs = get_cs()
