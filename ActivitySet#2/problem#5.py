@@ -35,3 +35,17 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+#for my reference to understand logic 
+'''Enter the the string system=s;database=d;username=u;password=p
+['system', 's']
+{'system': 's'}
+['database', 'd']
+{'system': 's', 'database': 'd'}
+['username', 'u']
+{'system': 's', 'database': 'd', 'username': 'u'}
+['password', 'p']
+{'system': 's', 'database': 'd', 'username': 'u', 'password': 'p'}
+{'system': 's', 'database': 'd', 'username': 'u', 'password': 'p'}
+system=s;database=d;username=u;password=p;'''
+
