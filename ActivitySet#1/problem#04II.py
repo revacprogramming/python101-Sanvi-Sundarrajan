@@ -8,7 +8,7 @@ def scores(s):
     if s>1:
         return 'Out of range'
     elif s<0:
-        return 'score cannot be negative'
+        return 'Score cannot be negative'
     elif s>=0.9:
         return 'A'
     elif s>=0.8:
